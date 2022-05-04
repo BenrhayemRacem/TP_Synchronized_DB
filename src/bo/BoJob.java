@@ -76,7 +76,9 @@ public class BoJob {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
-                } catch (Exception e){ }
+                } catch (Exception e){ 
+                	System.out.println(e);
+                }
             }
         };
         Timer timer = new Timer("Timer");
